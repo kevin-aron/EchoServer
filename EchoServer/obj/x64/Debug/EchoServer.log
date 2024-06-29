@@ -1,0 +1,42 @@
+﻿  正在验证源
+  正在将源远程复制到“120.76.251.185”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+E:\edaoyun\EchoServer\EchoServer\main.cpp(18,34): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+E:\edaoyun\EchoServer\EchoServer\main.cpp(18,34): warning :    error_handling("socket() error");
+E:\edaoyun\EchoServer\EchoServer\main.cpp(18,34): warning :                                   ^
+E:\edaoyun\EchoServer\EchoServer\main.cpp(29,32): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+E:\edaoyun\EchoServer\EchoServer\main.cpp(29,32): warning :    error_handling("bind() error");
+E:\edaoyun\EchoServer\EchoServer\main.cpp(29,32): warning :                                 ^
+E:\edaoyun\EchoServer\EchoServer\main.cpp(35,34): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+E:\edaoyun\EchoServer\EchoServer\main.cpp(35,34): warning :    error_handling("listen() error");
+E:\edaoyun\EchoServer\EchoServer\main.cpp(35,34): warning :                                   ^
+E:\edaoyun\EchoServer\EchoServer\main.cpp(48,35): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+E:\edaoyun\EchoServer\EchoServer\main.cpp(48,35): warning :     error_handling("accept() error");
+E:\edaoyun\EchoServer\EchoServer\main.cpp(48,35): warning :                                    ^
+E:\edaoyun\EchoServer\EchoServer\main.cpp(56,56): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+E:\edaoyun\EchoServer\EchoServer\main.cpp(56,56): warning :    while ((str_len = read(client, buffer, sizeof(buffer))) != 0)
+E:\edaoyun\EchoServer\EchoServer\main.cpp(56,56): warning :                                                         ^
+E:\edaoyun\EchoServer\EchoServer\main.cpp(60,43): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+E:\edaoyun\EchoServer\EchoServer\main.cpp(60,43): warning :     str_len = write(client, buffer, str_len);
+E:\edaoyun\EchoServer\EchoServer\main.cpp(60,43): warning :                                            ^
+E:\edaoyun\EchoServer\EchoServer\main.cpp(61,32): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\edaoyun\EchoServer\EchoServer\main.cpp(61,32): warning :     if (str_len != strlen(buffer))
+E:\edaoyun\EchoServer\EchoServer\main.cpp(61,32): warning :                                 ^
+E:\edaoyun\EchoServer\EchoServer\main.cpp(63,42): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+E:\edaoyun\EchoServer\EchoServer\main.cpp(63,42): warning :      error_handling("server write() error");
+E:\edaoyun\EchoServer\EchoServer\main.cpp(63,42): warning :                                           ^
+E:\edaoyun\EchoServer\EchoServer\main.cpp(80,34): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+E:\edaoyun\EchoServer\EchoServer\main.cpp(80,34): warning :    error_handling("socket() error");
+E:\edaoyun\EchoServer\EchoServer\main.cpp(80,34): warning :                                   ^
+E:\edaoyun\EchoServer\EchoServer\main.cpp(92,35): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+E:\edaoyun\EchoServer\EchoServer\main.cpp(92,35): warning :    error_handling("connect() error");
+E:\edaoyun\EchoServer\EchoServer\main.cpp(92,35): warning :                                    ^
+E:\edaoyun\EchoServer\EchoServer\main.cpp(128,32): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+E:\edaoyun\EchoServer\EchoServer\main.cpp(128,32): warning :    error_handling("fork() error");
+E:\edaoyun\EchoServer\EchoServer\main.cpp(128,32): warning :                                 ^
+  正在链接对象
+  EchoServer.vcxproj -> E:\edaoyun\EchoServer\EchoServer\bin\x64\Debug\EchoServer.out

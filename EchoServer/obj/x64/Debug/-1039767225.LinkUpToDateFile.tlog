@@ -1,0 +1,1 @@
+g++ -o "/root/echoserver/EchoServer/bin/x64/Debug/EchoServer.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/echoserver/EchoServer/obj/x64/Debug/main.o
